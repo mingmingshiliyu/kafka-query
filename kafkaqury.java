@@ -45,9 +45,9 @@ public class kafkaqury {
         String topic = br.readLine();
         System.out.println("输入partition:");
         String par = br.readLine();
-        System.out.println("输入起始时间");
+        System.out.println("输入起始时间yyyy-MM-dd HH:mm:ss");
         String start = br.readLine();
-        System.out.println("输入结束时间");
+        System.out.println("输入结束时间yyyy-MM-dd HH:mm:ss");
         String end = br.readLine();
 
 
